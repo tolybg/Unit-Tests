@@ -14,7 +14,7 @@ On your local machine, `cd` into the directory created for your clone and switch
 
 ## Challenge
 
-1. Build out the ./force-app/main/default/OpportunityUtils_Test.cls class to cover all scenarios you can identify. Note that 100% test coverage does not indicate all scenarios are covered! Check all of your unit tests pass before submitting your solution. There are a couple of ways of doing this.
+1. Build out the ./force-app/main/default/OpportunityUtils_Test.cls class to cover all scenarios you can identify. Note that 100% test coverage does not indicate all scenarios are covered! Check all of your unit tests pass before submitting your solution. 
 
 ### Notes
 The following Trailhead modules are available to learn more about unit testing in Apex:
