@@ -1,0 +1,61 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "KAB Test",
+  "steps": [
+    {
+      "title": "OpportunityUtils",
+      "description": "First we'll look at the OpportunityUtils class - this is a utility class that provides helper methods for many functional areas."
+    },
+    {
+      "file": "force-app/main/default/classes/OpportunityUtils.cls",
+      "description": "This method adds an indicator as to the size of an opportunity to its name.",
+      "line": 8,
+      "selection": {
+        "start": {
+          "line": 8,
+          "character": 17
+        },
+        "end": {
+          "line": 8,
+          "character": 48
+        }
+      }
+    },
+    {
+      "file": "force-app/main/default/classes/OpportunityUtils.cls",
+      "description": "The first breakpoint is 100000 - we consider this to be a large opportunity.",
+      "line": 12
+    },
+    {
+      "file": "force-app/main/default/classes/OpportunityUtils.cls",
+      "description": "The second is 50,000 - anything between this and 100,000 is considered medium size.",
+      "line": 16
+    },
+    {
+      "file": "force-app/main/default/classes/OpportunityUtils.cls",
+      "description": "Anything under 50,000 is small - we'll work that opportunity, but it won't get the same level of attention as a large or medium.",
+      "line": 22
+    },
+    {
+      "file": "force-app/main/default/classes/OpportunityUtils.cls",
+      "description": "Once we have changed the name of the opportunities, we write them to the database. As this method may be called with existing or new opportunities, we use the upsert DML statement. Youc an read more about this in the [Apex Docs](https://developer.salesforce.com/docs/atlas.en-us.234.0.apexcode.meta/apexcode/langCon_apex_dml_examples_upsert.htm)",
+      "line": 26
+    },
+    {
+      "file": "force-app/main/default/classes/OpprtunityUtils_Test.cls",
+      "description": "As you can see, the test class contains no code, just a comment with instructions. Your mission is to create the test methods.",
+      "line": 10,
+      "selection": {
+        "start": {
+          "line": 2,
+          "character": 1
+        },
+        "end": {
+          "line": 10,
+          "character": 2
+        }
+      }
+    }
+  ],
+  "ref": "main"
+}
